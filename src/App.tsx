@@ -53,7 +53,7 @@ const App = () => {
     <div className=" grid grid-cols-3 gap-4">
     {  
       state.map(item => {
-          return <button key={item.id} id={`btn-${item.id}`}  style={ item.isClicked ? {backgroundColor : 'coral',cursor : 'not-allowed'} : undefined} className="w-36 h-36 border-2 border-bg-zinc-700 cursor-pointer" onClick={handleClick}></button>
+          return <button key={item.id} id={`btn-${item.id}`}  style={ item.isClicked ? {backgroundColor : 'coral',cursor : 'not-allowed'} : undefined} className="w-24 h-24  border-2 border-bg-zinc-700 cursor-pointer" onClick={handleClick}></button>
       })
 }
     </div>
